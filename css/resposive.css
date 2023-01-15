@@ -1,0 +1,169 @@
+/* Responsive for phone screen ----------------------------------------------------------*/
+@media only screen and (max-width: 575.99px) {
+    .container {
+        margin: 0 50px;
+    }
+
+    /* Navber part is start ------------------------------------------------------------ */
+    header {
+        width:550px;
+    }
+
+    .navber-text h2 a {
+        font-weight: 700;
+        font-size: 30px;
+        color: #131313;
+        margin-top: 40px;
+        width: 550px;
+    }
+
+    .navber {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .navber-manu {
+        width: 450px;
+    }
+    .navber-manu ul {
+        display: block;
+    }
+
+    .navber-manu ul li {
+        text-align: center;
+        margin: 0;
+    }
+
+    .navber-manu ul li a {
+        font-weight: 500;
+        font-size: 24px;
+        color: #424242;
+        padding: 10px 25px;
+        cursor: pointer;
+        transition: .3s;
+    }
+
+    /* Banner part is start ------------------------------------------------------------- */
+    .banner h1 {
+        font-weight: 700;
+        font-size: 40px;
+        margin: 70px 0px 20px;
+    }
+
+    .banner p {
+        padding: 0 10px 20px;
+    }
+
+    .banner-btn {
+        margin: 0 0 30px 150px;
+    }
+
+    .banner img {
+        width: 445px;
+        margin-bottom: 45px;
+    }
+
+    /* quick part is start-------------------------------------------------------------- */
+    .quick-list {
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .quick-img {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        margin: 0;
+    }
+
+    .quick-img img {
+        text-align: center;
+        width: 450px;
+    }
+
+    .quick-text {
+        text-align: center;
+        width: 450px;
+    }
+
+    .quick-text h3 {
+        padding: 50px 0 10px;
+    }
+
+    .quick-text p {
+        margin: 10px 0px 20px;
+    }
+
+    /* features part is start ----------------------------------------------------------- */
+    .features {
+        display: block;
+        margin-bottom: 100px;
+    }
+
+    .features-text {
+        width: 450px;
+    }
+
+    .features-text h3::before {
+        height: 90px;
+    }
+
+    .features-text p {
+        text-align: justify;
+    }
+
+    .features-items {
+        width: 450px;
+        margin: 30px 0px;
+    }
+
+    .features-image img {
+        width: 450px;
+    }
+    .features-image .features-btn {
+        position: absolute;
+        left: 120px;
+        bottom: -30px;
+    }
+
+    /* some-facts part is start --------------------------------------------------------*/
+    .some-facts h3{
+        width: 450px;
+    }
+    .some-facts p {
+        width: 450px;
+        padding: 0 0 70px 20px;
+    }
+
+    .some-facts-items {
+        display: block;
+        margin: 0 0px 50px;
+    }
+    .some-facts-item1 {
+        width: 450px;
+        margin-bottom: 30px;
+    }
+    /* Our Sponspors part is start -------------------------------------------------------- */
+    .Sponspors{
+    width: 450px;
+    }
+    .Sponspors p {
+        padding: 0 30px 70px;
+    }
+    .sponspors-image {
+        display: grid;
+        grid-template-columns: 
+        repeat(2, 1fr);
+        row-gap: 50px;
+        margin-bottom: 100px;
+    }
+    .sponspors-image img{
+        margin-left: 30px;
+    }
+    /* footer part is start ---------------------------------------------------------------- */
+    .footer{
+        width:450px;
+        padding: 30px 0px;
+    }
+}
